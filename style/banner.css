@@ -1,0 +1,48 @@
+*{
+    font-family: fffeef;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: fffeef;
+    src: url(/fonts/Preahvihear-Regular.ttf);
+}
+
+.banner{
+    width: 100%;
+    background-color: #11071F;
+    position: relative;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+span{
+    color: #7127BA;
+}
+
+.p-absol{
+position: absolute;
+
+    top: 10px;
+    font-size: 10px;
+}
+.absul-img{
+    position: absolute;
+    top: 10px;
+    left:480px;
+}
+.hed-text{
+    font-size: 17px;
+}
+
+.min-text{
+font-size: 50px;
+}
+.foot-text{
+    font-size: 11px;
+}

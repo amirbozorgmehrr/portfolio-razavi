@@ -1,0 +1,7 @@
+@import url(/style/banner.css);
+@import url(./style/header.css);
+
+.main-box{
+    width: 100%;
+    background-color: #11071F;
+}
