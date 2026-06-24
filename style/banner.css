@@ -31,10 +31,13 @@ position: absolute;
     top: 10px;
     font-size: 10px;
 }
+.shadow-img{
+    position: relative;
+}
 .absul-img{
     position: absolute;
     top: 10px;
-    left:480px;
+    left:50px;
 }
 .hed-text{
     font-size: 17px;
