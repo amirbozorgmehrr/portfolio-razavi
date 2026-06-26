@@ -4,5 +4,11 @@
 .main-box{
     width: 100%;
     background-color: #11071F;
-    height: 90%;
+    
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #11071F;
 }

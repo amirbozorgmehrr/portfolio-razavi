@@ -13,11 +13,51 @@
     width: 100%;
     height: 500px;
     background-color: #11071F;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    
     
 }
 
+.imgbox{
+    width: 385px;
+    height: 435px;
+    border: none;
+    border-radius: 100%;
+    background: linear-gradient(circle, #ffffff 5% ,  #763CAC , #320F85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backdrupimg{
+    position: relative;
+}
+
+.iconboy{
+    position: absolute;
+    left: 44px;
+}
+.flash{
+  position: absolute;
+    top: 79px;
+    left: 37%;
+}
+
+.yourname{
+    position: absolute;
+   top: 63px;
+    left: 43%;
+    color: #ffffff;
+}
 span{
     color: #7127BA;
 }
 
+.textbox{
+    color: #ffffff;
+}
+.textitem{
+    font-size: 50px;
+}

@@ -4,10 +4,6 @@
     background-color: #1A0B2E;
     display: flex;
     justify-content: space-around;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1000;
     align-items: center;
 
 }
