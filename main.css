@@ -7,7 +7,11 @@ body ,html{
    height: 100%;
 
 }
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 #main{
     background-color: #11071F;
     display: flex;
@@ -96,3 +100,138 @@ body ,html{
     border: solid 1px #7b34bd;
     border-radius: 5px;
     background-color: #693B93;}
+
+
+
+
+    .boxjs{
+            width: 895px;
+    height: 754px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .tex-pragf{
+        width: 662px;
+        height: 65px;
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+    }
+    .tex-pragf span{
+        color: #A362FF;
+    }
+
+    .tex-pragf2{
+        font-size: 16px;
+    }
+
+    .item-logo-js{
+        width: 374px;
+        height: 104px;
+        
+        margin-top: 30px;
+            display: flex;
+    justify-content: space-evenly;
+    position: relative;
+
+    }
+
+    .back-logo{
+        width: 44px;
+        height: 44px;
+        border: none;
+        border-radius: 100%;
+        background-color: #251C31;
+        display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+       
+
+    }
+
+    .logo-postion-main{
+ display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .item-logo-part2{
+       display: flex;
+    width: 300px;
+    
+    position: absolute;
+    left: 40px;
+    gap: 10px;
+    top: 52px;
+    justify-content: space-evenly;
+}
+    .absolute-line{
+        
+        position: absolute;
+    top: 96px;
+    right: 29%;
+
+    }
+    .logo-line{
+       position: absolute;
+    top: 90px;
+    right: 206px;
+    }
+
+    .logo-line2{
+    position: absolute;
+    top: 88px;
+    right: 196px;
+    }
+
+    .logo-line3{
+     position: absolute;
+  top: 88px;
+    right: 190px;
+    }
+
+    .logo-line4{
+        position: absolute;
+    top: 85px;
+    right: 156px;
+}
+    
+    .logo-line5{
+        position: absolute;
+    top: 94px;
+    right: 108px;
+    }
+
+
+    .logo-line6{
+        position: absolute;
+    top: 88px;
+    right: 52px;
+    }
+
+
+    .grup-main{
+        padding-top: 130px;
+    }
+
+    .gradial-logo{
+      
+    width: 250px;
+    height: 250px;
+    background-color: #693B93;
+    border: none;
+    border-radius: 100%;
+    position: absolute;
+    top: 230px;
+    right: 36%;
+    }
+
+    #logo-main{
+        position: absolute;
+    top: 40%;
+    right: 43%;
+    }
