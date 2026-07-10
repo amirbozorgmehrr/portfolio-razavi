@@ -13,6 +13,7 @@ body ,html{
     box-sizing: border-box;
 }
 #main{
+    width: 100%;
     background-color: #11071F;
     display: flex;
     flex-direction: column;
@@ -20,6 +21,16 @@ body ,html{
     align-items: center;
 }
 
+@font-face {
+    font-family:poppins;
+
+    src: url("/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: pop;
+    src: url("/fonts/Poppins-SemiBold.ttf")
+}
 
 
 .Engineer{
@@ -235,3 +246,164 @@ body ,html{
     top: 40%;
     right: 43%;
     }
+
+    .exampel{
+        width: 100%;
+      margin-top: 100px;
+      position: relative;
+    }
+
+    .item-exampel{
+        width: 100%;
+  display: flex;
+        flex-direction: row-reverse;justify-content: flex-start;
+        padding-right: 80px;
+        
+        position: relative;
+    }
+
+      .exa-img{
+        position: absolute;
+        right: 300px;
+    }
+    
+
+    .box-scrinshot{
+         width: 584px;
+        height: 342px;
+        border: none;
+        border-radius: 10px;
+         background-color: #2B0B3A; 
+         position: absolute;
+         top: 190px;
+         right: 170px;
+         z-index: 1;
+         display: flex;
+         flex-direction: row-reverse;
+    }
+
+    .box-scrinshot img{
+        
+    
+        border-radius: 10px 0 10px 0;
+    }
+
+  .continer-text{
+    width: 618px;
+    height: 334px;
+    position: absolute;
+    top: 200px;
+    right: 710px;
+    z-index: 1;
+  }
+
+  .item-text-exam{
+    width: 300px;
+    height: 100px;
+  }
+  .text-info{
+    width: 143px;
+    height: 24px;
+    color: #9857D3;
+    font-size: 1rem;
+  }
+
+  .text-info2{
+    width: 288px;
+    height: 52px;
+    font-size: 34px;
+    color: #fff;
+  }
+
+  .text-blur{
+    width: 670px;
+    height: 166px;
+    color: #fff;
+    background-image: url("/imgs/Rectangle\ 1.png");
+    background-size: cover;
+    border-radius: 10px;
+     display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+
+
+  }
+
+
+  .continer-ex{
+    width: 100%;
+    height: 650px;
+    position: relative;
+  }
+
+  .item-box{
+    position: absolute;
+    left: 160px;
+  }
+
+  .continer-img{
+   left: 90px;
+    width: 644px;
+    height: 382px;
+    background-color: #2B0B3A;
+    
+    border-radius: 8px;
+    position: absolute;
+    top: 140px;
+        padding: 36px 40px 0 0;
+  }
+
+  .box-pargraf{
+    width: 670px;
+    height: 330px;
+    position: absolute;
+    top: 190px;
+    right: 540px;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+
+  .titr1{
+    width: 142px;
+    height: 24px;
+    color: #9857D3;
+  }
+  .titr2{
+
+    font-size: 34px;
+    color: #fff;
+  }
+
+
+   .text-blur2{
+    width: 670px;
+    height: 166px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.text-blur2::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/imgs/Rectangle 1.png");
+    background-size: cover;
+    background-position: center;
+    transform: scaleX(-1); /* برعکس کردن فقط بک‌گراند */
+    z-index: 0;
+}
+
+.p-text{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
