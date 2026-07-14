@@ -11,6 +11,7 @@
 
 .banner{
     width: 100%;
+    min-width: 400px;
     height: 500px;
     background-color: #11071F;
     position: relative;
@@ -60,4 +61,60 @@ span{
 }
 .textitem{
     font-size: 50px;
+}
+
+
+@media (max-width:768px){
+
+    .banner{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+        gap: 90px;
+    }
+
+    .backdrupimg{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgbox{
+        width: 280px;
+        height: 280px;
+    }
+
+    .iconboy{
+        width: 85%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .flash{
+        width: 120px;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .yourname{
+        top: 5px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .textbox{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+
+    }
+
+    .textitem{
+        font-size: 32px;
+    }
 }
