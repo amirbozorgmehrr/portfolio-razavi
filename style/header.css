@@ -17,12 +17,20 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    transition: all 1s;
+
 }
 .menu a{
     text-decoration: none;
     color: #fff;
+    
 
 }
+ .menu a:hover{
+    transform: scale(1.2)
+}
+
+
  @media (max-width:768px) {
     /* .header1{
         padding: 0 20px;

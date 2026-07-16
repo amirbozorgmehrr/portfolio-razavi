@@ -10,14 +10,15 @@
 }
 
 .banner{
-    width: 100%;
+
     min-width: 400px;
     height: 500px;
     background-color: #11071F;
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 120px;
    
     
 }
@@ -42,14 +43,14 @@
 }
 .flash{
   position: absolute;
-    top: 79px;
-    left: 37%;
+    top: 80px;
+    left: 26%;
 }
 
 .yourname{
     position: absolute;
-   top: 63px;
-    left: 43%;
+   top: 64px;
+    left: 32%;
     color: #ffffff;
 }
 span{
