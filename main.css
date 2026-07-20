@@ -81,8 +81,8 @@ body ,html{
 
 }
 .item{
-    width: 570px;
-    height: 192px;
+    width: 505px;
+    height: 188px;
     background-color: #1877F2;
     border-radius: 5px;
     display: flex;
@@ -436,10 +436,7 @@ body ,html{
     justify-content: space-around;
 }
 
-  @media (max-width:768px){
-
-
-}    
+  
 /* ================= MOBILE ================= */
 
 @media (max-width:768px){
@@ -455,16 +452,17 @@ body{
 } */
 
     .Engineer {
-        padding-left: 95px;
+        padding-left: 0px;
         height: auto;
         font-size: 32px;
     }
-        .pragraf {
-        width: 54%;
+           .pragraf {
+        width: 95%;
         height: auto;
         margin: 30px 0;
         font-size: 16px;
-        text-align: center;
+        text-align: justify;
+        padding-left: 47px;
     }
         .radial {
         width: 70%;
@@ -530,6 +528,11 @@ body{
     height:auto;
 }
 
+.continer{
+    display: flex;
+        flex-direction: column;
+        gap: 35px;
+}
 .continer-text{
     position:static;
     width:100%;
@@ -706,16 +709,15 @@ body{
     justify-content:center;
 }
 
-.gradial-logo,
-#logo-main,
-.absolute-line,
-.logo-line,
-.logo-line2,
-.logo-line3,
-.logo-line4,
-.logo-line5,
-.logo-line6{
-    display: none;
+.absolute-line{
+    width: 40%;
+    position: absolute;
+    top: 14%;
+    right: 25%;
+
+}
+.grup-main{
+    margin-top: 10%;
 }
 
 img{
@@ -723,4 +725,271 @@ img{
     height:auto;
 }
 
+}
+
+@media (max-width:322px) {
+     html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+.header1{
+    padding: 25px;
+}
+    .backdrupimg {
+        width: 83%;
+        display: flex;
+        justify-content: center;
+    }
+        .imgbox {
+        width: 240px;
+        height: 270px;
+    }
+    .yourname {
+        top: 5px;
+        transform: translateX(-50%);
+        text-align: center;
+        
+    }
+        .flash {
+        top: 26px;
+        left: 50%;
+        
+    }
+        .textbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 30px;
+    
+        width: 90%;
+    }
+
+    .p-baner{
+        width: 90%;
+    }
+    .textitem {
+        font-size: 2rem;
+    }
+    
+    .Engineer {
+        padding-left: 26px;
+        height: auto;
+        font-size: 26px;
+    }
+        .pragraf {
+        width: 90%;
+        height: auto;
+        margin: 30px 0;
+        font-size: 16px;
+        
+    }
+       .item p {
+        font-size: 10px;
+    }
+
+    .continer {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 280px;}
+
+        .item-logo-js {
+        flex-wrap: wrap;
+        height: auto;
+        padding: 30px;
+    }
+
+        .absolute-line {
+        width: 110%;
+        position: absolute;
+        top: 30%;
+        left: 10%;
+    }
+
+        .grup-img {
+        margin-left: 40px;
+        width: 70%;
+    }
+        .exampel {
+        width: 95%;
+    }
+        .continer-ex {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+    }
+
+    .footerr {
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+        .footer-position {
+        position: static;
+        width: 95%;
+        height: auto;
+        /* padding: 30px 20px; */
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+}
+
+@media (max-width:378px) {
+
+         html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+.header1{
+    padding: 25px;
+}
+  .imgbox {
+        width: 220px;
+        height: 265px;
+    }
+        .Engineer {
+        width: 75%;
+        padding-left: 25px;
+        height: auto;
+        font-size: 32px;
+    }
+        .pragraf {
+        width: 86%;
+        height: auto;
+        margin: 30px 0;
+        font-size: 16px;
+        /* text-align: center; */
+    }
+        .radial {
+        width: 100%;
+        height: auto;
+        background-size: contain;
+        margin-top: 40px;
+    }
+        .tex-pragf {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        padding: 10px;
+    }
+        .absolute-line {
+        width: 100%;
+        position: absolute;
+        top: 26%;
+        left: 3%;
+    }
+      
+        .grup-img {
+        width: 100%;
+        /* margin-left: 100px; */
+    }
+    .grup-main {
+        margin-top: 100px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+        .exampel {
+        width: 100%;
+    }
+        .continer-ex {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+    }
+    .footerr {
+        width: 100%;
+        height: auto;
+        /* padding-bottom: 40px; */
+    }
+    .footer-position {
+        position: static;
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+        /* align-items: center; */
+        /* text-align: center; */
+    }
+}
+
+
+@media (max-width:428px) {
+    .header1{
+    
+    width: 100%;
+    height: 113px;
+    background-color: #1A0B2E;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+    .imgbox {
+        width: 216px;
+        height: 280px;
+    }
+
+        .yourname {
+        top: 5px;
+        transform: translateX(-50%);
+        text-align: center;
+        width: 100%;
+        font-size: 16px;
+        left: 65%;
+    }
+        .Engineer {
+        width: 76%;
+        padding-left: 30px;
+        height: auto;
+        font-size: 32px;
+    }
+        .pragraf {
+        width: 90%;
+        height: auto;
+        margin: 30px 0;
+        font-size: 16px;
+         text-align: justify; 
+    }
+        .radial {
+        width: 100%;
+        height: auto;
+        background-size: contain;
+        margin-top: 40px;
+    }
+        .tex-pragf {
+        width: 95%;
+        margin-top: 30px;
+        height: auto;
+        font-size: 18px;
+        text-align: justify;
+    }
+        .absolute-line {
+        width: 100%;
+        position: absolute;
+        top: 26%;
+        right: 2%;
+    }
+    .grup-main {
+        margin-top: 30%;
+    }
+    .grup-img {
+        width: 90%;
+        margin-left: 28px;
+    }
+        .exampel {
+        width: 100%;
+    }
+        .continer-ex {
+        width: 100%;
+        height: auto;
+        margin-top: 80px;
+    }
+    .footerr {
+        width: 88%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+    
 }
