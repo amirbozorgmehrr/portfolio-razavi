@@ -701,6 +701,12 @@ body{
     flex-wrap:wrap;
     height:auto;
 }
+    .absolute-line {
+        width: 50%;
+        position: absolute;
+        top: 14%;
+        right: 25%;
+    }
 
 .item-logo-part2{
     position:static;
@@ -763,6 +769,12 @@ body{
         margin-right: 30px;
     
         width: 90%;
+    }
+        .textbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0px;
     }
 
     .p-baner{
@@ -855,12 +867,20 @@ body{
         height: auto;
         font-size: 32px;
     }
-        .pragraf {
-        width: 86%;
+          .pragraf {
+        width: 93%;
         height: auto;
-        margin: 30px 0;
+        /* margin: 30px 0; */
         font-size: 16px;
-        /* text-align: center; */
+        padding-right: 4px;
+        text-align: justify;
+        padding-left: 12px;
+    }
+        .textbox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 0;
     }
         .radial {
         width: 100%;
@@ -951,6 +971,7 @@ body{
         margin: 30px 0;
         font-size: 16px;
          text-align: justify; 
+         padding-left: 2px;
     }
         .radial {
         width: 100%;
@@ -991,5 +1012,294 @@ body{
         height: auto;
         padding-bottom: 40px;
     }
+    
+}
+
+
+@media (max-width:1025px) {
+  .Engineer {
+        height: 90px;
+        color: #fff;
+        font-size: 50px;
+        /* margin-right: 5%; */
+        padding-left: 14px;
+        margin: 0;
+    }
+    .pragraf {
+        font-size: 22px;
+        color: #fff;
+        margin-top: 100px;
+        /* margin-right: 11%; */
+        width: 62%;
+        margin: 85px;
+    }
+ .radial {
+        width: 55%;
+        height: auto;
+        background-size: contain;
+        margin-top: 40px;
+    }
+    .grup-img{
+        width: 70%;
+        margin-left: 100px;
+    }
+    
+
+.exampel{
+    width:100%;
+    margin-top:50px;
+}
+
+.item-exampel{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding:0 20px;
+    gap:30px;
+    position:static;
+}
+
+.exa-img{
+   display: none;
+}
+.exa-img2{
+    display: none;
+}
+.exampel {
+         width: 70%; 
+    
+    }
+    .item-box-img{
+        display: none;
+    }
+
+.exa-img img{
+    width:100%;
+    max-width:320px;
+    height:auto;
+}
+
+.box-scrinshot{
+    position:static;
+    width:100%;
+    min-width:0;
+    height:auto;
+    margin-top:20px;
+}
+.back-logo:hover{
+        transform: scale(1.2);
+        box-shadow: 0 0 5px white;
+    }
+
+.box-scrinshot img{
+    width:100%;
+    height:auto;
+}
+
+.continer{
+    display: flex;
+        flex-direction: column;
+        gap: 35px;
+}
+.continer-text{
+    position:static;
+    width:100%;
+    height:auto;
+    margin-top:25px;
+    text-align:center;
+}
+
+.item-text-exam{
+    width:100%;
+    height:auto;
+}
+
+.text-info{
+    width:100%;
+}
+
+.text-info2{
+    width:100%;
+    font-size:28px;
+}
+
+.text-blur{
+    width:100%;
+    height:auto;
+    padding:20px;
+}
+
+.text-blur p{
+    width:100%;
+}
+
+.continer-ex{
+    width:70%;
+    height:auto;
+    margin-top:80px;
+}
+
+.item-box{
+    position:static;
+    width:100%;
+}
+
+.continer-img{
+    position:static;
+    width:100%;
+    height:auto;
+    padding:15px;
+}
+
+.continer-img img{
+    width:100%;
+    height:auto;
+}
+
+.box-pargraf{
+    position:static;
+    width:100%;
+    height:auto;
+    margin-top:25px;
+    padding:0 20px;
+}
+
+.titr1{
+    width:100%;
+    text-align:center;
+}
+
+.titr2{
+    text-align:center;
+    font-size:28px;
+}
+
+.text-blur2{
+    width:100%;
+    height:auto;
+    padding:20px;
+}
+
+.footer-position{
+    position:static;
+    width:100%;
+    height:auto;
+    padding:30px 20px;
+    align-items:center;
+    text-align:center;
+}
+
+.footerr{
+    width: 70%;
+    height:auto;
+    padding-bottom:40px;
+}
+ html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+#main{
+    width:100%;
+    padding:20px 15px;
+}
+
+/* .Engineer{
+    padding-left: 20px;
+    height:auto;
+    font-size:32px;
+} */
+
+.Engineer p{
+    font-size:16px;
+}
+
+/* .pragraf{
+    width:54%;
+    height:auto;
+    margin:30px 0;
+    font-size:16px;
+    text-align:center;
+} */
+
+/* .radial{
+    width:100%;
+    height:auto;
+    background-size:contain;
+    margin-top:40px;
+} */
+
+.continer{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.item{
+    width:100%;
+    height:auto;
+}
+
+.item img{
+    width:70px;
+}
+
+.item label{
+    font-size:20px;
+}
+
+.item p{
+    font-size:13px;
+}
+
+.boxjs{
+    width:100%;
+    height:auto;
+}
+
+    .tex-pragf {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+.item-logo-js{
+    
+    flex-wrap:wrap;
+    height:auto;
+}
+           .absolute-line {
+        width: 90%;
+        position: absolute;
+        top: 16%;
+        right: 31%;
+    }
+    .grup-img {
+        width: 70%;
+        margin-left: 140px;
+    }
+    
+
+.item-logo-part2{
+    position:static;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+.grup-main{
+    margin-top: 10%;
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+
     
 }
